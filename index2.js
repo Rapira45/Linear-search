@@ -1,11 +1,11 @@
 const search = [1, 1, 3, 4, 5];
-const num = 7;
+const num = 1;
 
 function linearSearch (search, num) {
     let popolnenie = [];
     let i = 0;
     let a = 0;
-
+    
     while (i < search.length) {
         if (search[i] === num) {
             popolnenie[a] = i;
@@ -22,5 +22,4 @@ function linearSearch (search, num) {
     }
 }
 
-linearSearch(search, num);
 console.log(linearSearch(search, num));
