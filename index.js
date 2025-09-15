@@ -1,8 +1,10 @@
-let search = [1, 2, 3, 4];
-const num = 2;
-let i = 0;
+const search = [1, 2, 3, 4];
+const num = 1;
+
 
 function linearSearch (search, num) {
+    let i = 0 
+
     while (i < search.length) {
         if (search[i] === num) {
             return i;
@@ -11,9 +13,7 @@ function linearSearch (search, num) {
         i++;
     }
 
-    return i = -1
+    return -1
 }
 
-linearSearch(search, num);
-
-console.log(i);
+console.log(linearSearch(search, num))
